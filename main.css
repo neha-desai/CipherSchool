@@ -1,0 +1,229 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+.loginDiv {
+  display: flex;
+  padding: 10px 10px 10px 10px;
+}
+
+.inputAreas {
+  margin: 0 auto;
+  width: 35%;
+  text-align: center;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 15px;
+  height: 600px;
+}
+.divTitle {
+  background-color: #30475e;
+  padding: 30px 30px 30px 30px;
+  color: white;
+  font-size: 27px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+#username,
+#password {
+  width: 80%;
+  padding: 15px 10px 15px 10px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(223, 223, 223);
+}
+#username:focus,
+#password:focus {
+  border: none;
+  outline: none;
+}
+#submitButton {
+  color: white;
+  font-size: 18px;
+  height: 45px;
+  width: 84%;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  background-color: #30475e;
+  cursor: pointer;
+}
+#submitButton:focus {
+  outline: none;
+}
+.dontHaveAcc {
+  margin-top: 200px;
+  font-size: 14px;
+}
+nav {
+  background-color: #30475e;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  font-size: 17px;
+}
+
+nav > a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav > a:hover {
+  color: #f05454;
+}
+
+#overlay {
+  background-color: rgba(14, 14, 14, 0.8);
+  position: absolute;
+  top: 50px;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+.nameDiv {
+  margin-top: 290px;
+  color: white;
+  font-size: 52px;
+  font-weight: 800;
+}
+
+.description {
+  margin-top: 15px;
+  color: #f05454;
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+
+.description > span {
+  background-color: rgba(2, 2, 2, 0.7);
+  padding: 10px 10px 10px 10px;
+}
+
+#hobbies {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+#gridtitle {
+  font-size: 28px;
+  font-weight: 800;
+  color: #f05454;
+  text-align: center;
+  grid-column: 1 / 7;
+}
+#gridtitle > hr {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+}
+#hobbies > .hobbiesCard {
+  text-align: center;
+  padding: 20px 0;
+  width: 250px;
+  cursor: pointer;
+}
+
+#hobbies > .hobbiesCard:hover {
+  box-shadow: 15px 10px 8px #b1b1b1;
+}
+
+.divimg {
+  height: 55px;
+}
+
+.hobbiesCard > p {
+  font-size: 19px;
+  color: #30475e;
+}
+
+#Interest {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  justify-content: center;
+  background-color: #eeeeee;
+  padding-bottom: 50px;
+}
+.interestCard {
+  text-align: center;
+  padding: 20px 0;
+  width: 150px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 15px;
+}
+.interestCard > .divimg {
+  padding: 10px 10px 10px 10px;
+  border: 2px dashed #30475e;
+  height: 40px;
+}
+
+.interestCard > p {
+  font-size: 19px;
+  color: #222831;
+  font-weight: 700;
+}
+
+#professionalSummary,
+#personalSummary {
+  padding: 20px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.personalDescription {
+  width: 50%;
+  text-align: center;
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.personalDescription > a {
+  text-decoration: none;
+  color: black;
+}
+
+.personalDescription > a:hover {
+  color: #30475e;
+}
+.personalDiv {
+  box-shadow: 10px 10px 10px 10px #dddddd;
+  margin-top: 50px;
+  width: 60%;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.summaryTitle {
+  background-color: #30475e;
+  width: 10%;
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+
+.summaryDescription {
+  margin: 10px 20px 10px 20px;
+}
+.languages {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  justify-content: center;
+}
+.nameOfLanguage {
+  border: 2px solid #c9c9c9;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
